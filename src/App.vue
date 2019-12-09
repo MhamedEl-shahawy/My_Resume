@@ -20,14 +20,29 @@ export default {
 </script>
 <style>
 ::selection{
+  color: #e6e1dc;
   background-color:#000;
+}
+body::-webkit-scrollbar-track {
+    background: #000;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #FFE70B;
 }
 body{
   height:100%;
   width:100%;
+  overflow-x:hidden;
 }
 *{
-    padding:0;
+  padding:0;
   margin:0;
   box-sizing:border-box;
 }

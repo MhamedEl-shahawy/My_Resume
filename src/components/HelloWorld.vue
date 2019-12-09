@@ -104,6 +104,10 @@
         <a class="projects__links_link" href="https://ecommerce-shop-b216e.firebaseapp.com/" target="_blank">CinemaCrush</a>
         <a class="projects__links_link" href="https://chatapp-2743c.firebaseapp.com/" target="_blank">TechChat</a>
         <a class="projects__links_link" href="https://github.com/MhamedEl-shahawy/poster-shop" target="_blank">PosterShop</a>
+        <a class="projects__links_link" href="https://mhamedel-shahawy.github.io/solo---creative-website/index.html" target="_blank">Solo</a>
+        <a class="projects__links_link" href="https://mhamedel-shahawy.github.io/Loso-Responsive/" target="_blank">Loso</a>
+        <a class="projects__links_link" href="https://mhamedel-shahawy.github.io/Landpage/" target="_blank">Altrntv</a>
+        <a class="projects__links_link" href="https://mhamedel-shahawy.github.io/Kanox_Blog/" target="_blank">Kanox</a>
         </div>
     </section>        
   </div>
@@ -118,12 +122,24 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+::-webkit-scrollbar {
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #5f9ea0;
+}
+::-webkit-scrollbar-track {
+    background: #000;
+}
 .content{
   background-color:#f0cd06;  
   height:100%;
   width:100%;
   padding:3em;
   font-family: monospace;
+    overflow-x:hidden;
+
 }
 .content__navigate{
   width:100%;
@@ -212,6 +228,7 @@ font-family: MerriweatherSansRegular;
     font-family: MerriweatherSansRegular;
     font-size:1.3em;
     margin-right:1em;
+    line-height:2;
 }
 .projects__links_link::after{
     display: inline-block;
@@ -225,8 +242,6 @@ font-family: MerriweatherSansRegular;
     margin-left: 3px;
     vertical-align: text-top;
 }
-
-
 .orange{
   color:#c26230;
 }
@@ -241,10 +256,33 @@ font-family: MerriweatherSansRegular;
     padding:1em;
     padding-top:2em;
   }
+  .helping__tools,
+  .learning__technology{
+   display:block;
+   text-align:center;
+  }
+  .helping__tools_img,
+  .learning__technology_{
+   display:block;
+   margin:auto;
+   margin-bottom:2em;
+  }
+  .projects__links{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+  }
+  .projects__links_link{
+     line-height:2;
+  }
 }
 @media screen and (max-width:800px){
   .content__navigate_filter_li_item{
    font-size:1.1em;
+  }
+    .helping__tools_img,
+    .learning__technology_img{
+    max-width: 250px;
+    max-height: 100px;
   }
 }
 </style>

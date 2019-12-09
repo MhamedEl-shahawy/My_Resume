@@ -39,6 +39,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+::-webkit-scrollbar {
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #5f9ea0;
+}
+::-webkit-scrollbar-track {
+    background: #000;
+}
 .sidebar{
   background-color:#051010;  
   height:100%;
