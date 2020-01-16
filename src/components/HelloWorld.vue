@@ -94,6 +94,8 @@
       <div class="learning__technology">
        <img  class="learning__technology_img" src="../assets/jasmine.svg"  title="i use: jasmine in my work" />
        <img  class="learning__technology_img" src="../assets/nodejs.png"  title="i use: nodejs in my work" />
+       <img  class="helping__tools_img" src="../assets/react.jpg"  title="i use: React in my work" />
+       <img  class="helping__tools_img" src="../assets/style.png"  title="i use: StyledComponents in my work" />
       </div>
     </section>  
        <hr /> 
@@ -108,6 +110,8 @@
         <a class="projects__links_link" href="https://mhamedel-shahawy.github.io/Loso-Responsive/" target="_blank">Loso</a>
         <a class="projects__links_link" href="https://mhamedel-shahawy.github.io/Landpage/" target="_blank">Altrntv</a>
         <a class="projects__links_link" href="https://mhamedel-shahawy.github.io/Kanox_Blog/" target="_blank">Kanox</a>
+        <a class="projects__links_link" href="https://githubsearcher98.netlify.com/" target="_blank">GithubSearch</a>
+
         </div>
     </section>        
   </div>

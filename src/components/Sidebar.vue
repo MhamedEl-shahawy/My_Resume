@@ -56,6 +56,7 @@ export default {
   padding:2em 2em;
   font-family: monospace;
   margin:auto;
+
 }
 .sidebar__myimg-me{
 	width:150px;
