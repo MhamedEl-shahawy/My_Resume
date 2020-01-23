@@ -127,11 +127,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 ::-webkit-scrollbar {
-    height: 5px;
+    height: 10px;
+    width:8px;
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: #5f9ea0;
+    background: #f0cd06;
 }
 ::-webkit-scrollbar-track {
     background: #000;
@@ -139,11 +140,9 @@ export default {
 .content{
   background-color:#f0cd06;  
   height:100%;
-  width:100%;
   padding:3em;
   font-family: monospace;
-    overflow-x:hidden;
-
+  overflow-x:hidden;
 }
 .content__navigate{
   width:100%;
@@ -289,4 +288,11 @@ font-family: MerriweatherSansRegular;
     max-height: 100px;
   }
 }
+@media screen and (min-width:800px){
+  .content{
+    position:absolute;
+    right:0;
+    width:75vw;
+  }
+  }
 </style>

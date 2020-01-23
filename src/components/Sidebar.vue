@@ -27,6 +27,7 @@
           </code>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -52,11 +53,9 @@ export default {
 .sidebar{
   background-color:#051010;  
   height:100%;
-    width: 100%;
   padding:2em 2em;
   font-family: monospace;
   margin:auto;
-
 }
 .sidebar__myimg-me{
 	width:150px;
@@ -90,7 +89,7 @@ export default {
 	color:#a5c261;
 	background-color:#232323;
 	padding:7px;
-	margin-top:2.2em;
+	margin-top:3em;
    overflow-x: auto;
 }
 .var{
@@ -103,6 +102,9 @@ export default {
 	color:#6d9cbe;
 }
 @media screen and (max-width:800px){
+.sidebar{
+  width:100%;
+}
   .sidebar__myimg-me{
      width:200px;
      height:200px;
@@ -110,5 +112,12 @@ export default {
   .sidebar{
     padding:2.3em 2.3em;
   }
-} 
+}
+@media screen and (min-width:800px){
+.sidebar{
+   position:fixed;
+   top:0;
+   width:25vw;
+}
+}
 </style>

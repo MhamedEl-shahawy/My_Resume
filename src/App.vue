@@ -34,23 +34,24 @@ body::-webkit-scrollbar{
 
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: #FFE70B;
-}
-body{
-  height:100%;
-  width:100%;
-  overflow-x:hidden;
+    background: #f0cd06;
 }
 *{
   padding:0;
   margin:0;
   box-sizing:border-box;
 }
+body{
+  height:100%;
+  width:100%;
+  overflow-x:hidden;
+}
 .app {
   width:100%;
   height:100%;
   display:grid;
   grid-template-columns:1fr 3fr;
+  
 }
 @media screen and (max-width:800px){
   .app{
